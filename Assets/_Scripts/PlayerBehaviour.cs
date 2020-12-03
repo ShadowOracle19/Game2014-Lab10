@@ -78,7 +78,7 @@ public class PlayerBehaviour : MonoBehaviour
         
         sounds = GetComponents<AudioSource>();
 
-        vCam1 = FindObjectOfType<CinemachineVirtualCamera>();
+        
         perlin = vCam1.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
         shakeTimer = maxShakeTime;
     }
